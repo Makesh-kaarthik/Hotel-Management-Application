@@ -1,0 +1,157 @@
+body {
+  background-color: #2b2b2b;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.category {
+  margin-bottom: 30px;
+}
+
+.category h3 {
+  color: #ff6200;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-controls button {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.generate-bill {
+  display: block;
+  margin: 20px auto;
+}
+
+.bill {
+  padding: 20px;
+}
+
+.bill-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
+}
+
+.total {
+  margin: 20px 0;
+  padding-top: 10px;
+  border-top: 2px solid #fff;
+  text-align: right;
+}
+
+.payment {
+  text-align: center;
+}
+
+.payment img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #ff6200;
+  border-radius: 10px;
+}
+
+.thank-you {
+  text-align: center;
+  padding: 20px;
+}
+
+.thank-you h2 {
+  color: #ff6200;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #ff6200;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.login {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login form div {
+  margin-bottom: 15px;
+}
+
+.login input {
+  width: calc(100% - 24px);
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
+}
+
+.error {
+  color: red;
+}
+
+.logout-button {
+  float: right;
+}
